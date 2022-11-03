@@ -1,1 +1,1 @@
-# CommunityDetection
+# Community-Detection
