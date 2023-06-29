@@ -30,7 +30,8 @@ python community_detection.py
 7. The final step is to visualize the communities by coloring the nodes accordingly. The resulting graph is displayed using Matplotlib.
 
 # Snapshots
-
+## Sample Visualisation of the Graph with Highlighted Communities
+![Screenshot of the graph generated with highlighted communities](network.png)
 
 # Conclusion
 This project demonstrates the application of the leading eigenvector algorithm for community detection in networks. By identifying and removing edges with high betweenness centrality scores, the algorithm effectively separates the network into distinct communities. The communities are then visualized using different colors for nodes belonging to different groups. Feel free to explore and modify the project to analyze other networks and investigate community structures.
