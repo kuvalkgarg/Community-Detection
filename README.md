@@ -21,12 +21,12 @@ python community_detection.py
 ```
 
 # Configuration
-1. The project uses the NetworkX library to load and visualize the graph. The graph used in this project is the Karate Club graph.
-2. The edge_to_remove function identifies the edge with the highest edge betweenness centrality score, which indicates its importance in maintaining the connectivity of the graph.
-3. The leading_eigen function removes edges iteratively based on their betweenness centrality scores until the graph becomes disconnected into multiple components.
-4. The modularity function calculates the modularity matrix of the graph and separates the communities based on the sign of the elements of the largest positive eigenvector.
-5. The communities in the graph are found using the leading_eigen function and stored in the variable c.
-6. The nodes forming the communities are extracted and stored in the node_groups list.
+1. The project uses the NetworkX library to load and visualize the graph. The graph used in this project is the **Karate Club graph**.
+2. The **edge_to_remove** function identifies the edge with the highest edge betweenness centrality score, which indicates its importance in maintaining the connectivity of the graph.
+3. The **leading_eigen** function removes edges iteratively based on their betweenness centrality scores until the graph becomes disconnected into multiple components.
+4. The **modularity** function calculates the modularity matrix of the graph and separates the communities based on the sign of the elements of the largest positive eigenvector.
+5. The communities in the graph are found using the **leading_eigen** function and stored in the variable **c**.
+6. The nodes forming the communities are extracted and stored in the **node_groups** list.
 7. The final step is to visualize the communities by coloring the nodes accordingly. The resulting graph is displayed using Matplotlib.
 
 # Snapshots
